@@ -2,7 +2,8 @@ import './App.css';
 
 // import HookCounterOne from "./components/HookCounterOne";
 // import ClassMouse from "./components/ClassMouse";
-import HookMouse from "./components/HookMouse";
+// import HookMouse from "./components/HookMouse";
+import MouseContainer from "./components/MouseContainer";
 // import ClassCounterOne from "./components/ClassCounterOne";
 
 
@@ -12,7 +13,8 @@ function App() {
             {/*<ClassCounterOne/>*/}
             {/*<HookCounterOne/>*/}
             {/*<ClassMouse/>*/}
-            <HookMouse/>
+            {/*<HookMouse/>*/}
+            <MouseContainer/>
         </div>
     );
 }
