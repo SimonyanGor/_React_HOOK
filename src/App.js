@@ -1,6 +1,10 @@
 import React from "react";
 import './App.css';
 import ComponentC from "./components/ComponentC";
+import DocTitleOne from "./components/DocTitleOne";
+import DocTitleTwo from "./components/DocTitleTwo";
+import CounterOne from "./components/CounterOne";
+import CounterTwo from "./components/CounterTwo";
 // import DataFetching from "./components/DataFetching";
 // import IntervalClassCounter from "./components/IntervalClassCounter";
 // import IntervalHookCounter from "./components/IntervalHookCounter";
@@ -17,11 +21,8 @@ export const ChannelContext = React.createContext()
 function App() {
     return (
         <div className="App">
-            <UserContext.Provider value={"Anahit"}>
-                <ChannelContext.Provider value={'Gor'}>
-                    <ComponentC/>
-                </ChannelContext.Provider>
-            </UserContext.Provider>
+            <CounterOne/>
+            <CounterTwo/>
         </div>
     );
 }
