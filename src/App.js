@@ -5,6 +5,7 @@ import DocTitleOne from "./components/DocTitleOne";
 import DocTitleTwo from "./components/DocTitleTwo";
 import CounterOne from "./components/CounterOne";
 import CounterTwo from "./components/CounterTwo";
+import UserForms from "./components/UserForms";
 // import DataFetching from "./components/DataFetching";
 // import IntervalClassCounter from "./components/IntervalClassCounter";
 // import IntervalHookCounter from "./components/IntervalHookCounter";
@@ -21,8 +22,7 @@ export const ChannelContext = React.createContext()
 function App() {
     return (
         <div className="App">
-            <CounterOne/>
-            <CounterTwo/>
+            <UserForms/>
         </div>
     );
 }
